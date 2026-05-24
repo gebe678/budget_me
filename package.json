@@ -1,0 +1,25 @@
+{
+  "name": "budget_me",
+  "version": "24.16.0",
+  "description": "Automatic accounting for personal finance",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gebe678/budget_me.git"
+  },
+  "author": "Griffin Lehrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gebe678/budget_me/issues"
+  },
+  "homepage": "https://github.com/gebe678/budget_me#readme",
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
+  }
+}
