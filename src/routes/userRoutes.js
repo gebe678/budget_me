@@ -7,5 +7,6 @@ const userController = require(path.resolve(process.cwd(), "src", "controllers",
 
 
 router.get('/', userController.rootPage);
+router.get('/test', userController.secondPage);
 
 module.exports = router;

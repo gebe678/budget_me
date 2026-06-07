@@ -6,3 +6,8 @@ exports.rootPage = (req, res) =>
 {
     res.sendFile(indexFile);
 };
+
+exports.secondPage = (req, res) =>
+{
+    res.send("This is a test of the exports");
+}
